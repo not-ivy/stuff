@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  @apply bg-black text-white font-sans min-h-screen flex justify-center items-center p-8;
+  background-image: url("/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -10rem;
+}
